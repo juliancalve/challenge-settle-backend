@@ -1,0 +1,34 @@
+{
+  "name": "settle-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliancalve/settle-back.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliancalve/settle-back/issues"
+  },
+  "homepage": "https://github.com/juliancalve/settle-back#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.0.0",
+    "@hapi/inert": "^6.0.3",
+    "@hapi/joi": "^17.1.1",
+    "@hapi/vision": "^6.0.1",
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "hapi-swagger": "^14.1.0",
+    "inert": "^2.0.0",
+    "joi": "^17.4.0",
+    "mongoose": "^5.12.0",
+    "vision": "^5.4.4"
+  }
+}
